@@ -1,2 +1,29 @@
-# House-Price
-House Price Predict
+# Prediksi Harga Rumah
+
+Project ini bertujuan untuk melakukan prediksi harga rumah menggunakan data dari platform `pashouse`. Proses yang dilakukan meliputi: 
+1. **Data Scraping**  
+   Mengumpulkan data dari platform jual-beli rumah `pashouse` melalui proses web scraping dengan beautifulsoup.
+
+2. **Data Cleaning & Preparation**  
+   Melakukan pembersihan data mentah untuk menghilangkan missing values, duplikasi, dan inkonsistensi sehingga menghasilkan dataset yang siap digunakan.
+
+3. **Exploratory Data Analysis (EDA)**  
+   Menganalisis karakteristik data secara visual dan statistik untuk memahami distribusi, hubungan antar fitur, serta mendeteksi anomali atau pola penting.
+
+4. **Data Splitting**  
+   Membagi dataset menjadi data pelatihan (training set) dan data pengujian (test set) untuk evaluasi model yang adil dan tidak bias.
+
+5. **Outlier Handling**  
+   Menerapkan teknik winsorization pada kolom numerik untuk mengurangi dampak outlier, dengan fitting pada data training dan transformasi dilakukan pada data training dan testing.
+
+6. **Feature Engineering & Scaling**  
+   Melakukan encoding fitur kategori menggunakan One-Hot Encoding dan standarisasi fitur numerik menggunakan StandardScaler untuk memastikan skala fitur yang konsisten.
+
+7. **Modeling & Comparison**  
+   Membangun dan membandingkan berbagai model regresi, termasuk Linear Regression, Regularisasi (Lasso, Ridge, ElasticNet), Polynomial Regression, Support Vector Regression (SVR), dan Random Forest Regressor.
+
+8. **Hyperparameter Tuning**  
+   Melakukan optimasi parameter model menggunakan GridSearchCV untuk mendapatkan kombinasi parameter terbaik yang meningkatkan performa model.
+
+9. **Assumptions check**   
+   Mengidentifikasi pelanggaran asumsi yang dapat menyebabkan bias, ketidakstabilan koefisien, dan prediksi yang kurang akurat, sehingga memungkinkan perbaikan model agar performa dan interpretasinya lebih baik.
