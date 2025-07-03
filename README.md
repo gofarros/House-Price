@@ -27,3 +27,6 @@ Project ini bertujuan untuk melakukan prediksi harga rumah menggunakan data dari
 
 9. **Assumptions check**   
    Mengidentifikasi pelanggaran asumsi yang dapat menyebabkan bias, ketidakstabilan koefisien, dan prediksi yang kurang akurat, sehingga memungkinkan perbaikan model agar performa dan interpretasinya lebih baik.
+
+
+Dari enam model yang diuji, terdapat dua model yang perlu diperhatikan: **1. Random Forest**, yang memiliki error sangat rendah dan nilai R² tinggi pada data train (), namun menunjukkan selisih signifikan pada data test, mengindikasikan overfitting; dan **2. Ridge Regression**, yang menunjukkan performa lebih stabil dengan gap train-test lebih kecil. Hal ini mencerminkan efek positif regularisasi L2 dalam mengontrol kompleksitas model. Oleh karena itu, Ridge Regression memberikan performa lebih baik secara keseluruhan pada dataset yang relatif kecil, karena model yang lebih sederhana ini lebih cepat dilatih, mampu mengurangi dampak noise, dan memiliki kemampuan generalisasi yang lebih baik dibanding model yang lebih kompleks.
