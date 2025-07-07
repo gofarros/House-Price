@@ -20,7 +20,7 @@ Project ini bertujuan untuk melakukan prediksi harga rumah menggunakan data dari
    Melakukan encoding fitur kategori menggunakan One-Hot Encoding dan standarisasi fitur numerik menggunakan StandardScaler untuk memastikan skala fitur yang konsisten.
 
 7. **Modeling & Comparison**  
-   Membangun dan membandingkan berbagai model regresi, termasuk Linear Regression, Regularisasi (Lasso, Ridge, ElasticNet), Polynomial Regression, Support Vector Regression (SVR), dan Random Forest Regressor.
+   Membangun dan membandingkan berbagai model regresi, termasuk Linear Regression, Regularisasi (Lasso, Ridge, ElasticNet), Support Vector Regression (SVR), dan Random Forest Regressor.
 
 8. **Hyperparameter Tuning**  
    Melakukan optimasi parameter model menggunakan GridSearchCV untuk mendapatkan kombinasi parameter terbaik yang meningkatkan performa model.
